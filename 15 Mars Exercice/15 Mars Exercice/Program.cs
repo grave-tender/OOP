@@ -6,9 +6,11 @@ namespace _15_Mars_Exercice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Entrez les 3 chiffres:");
+            Console.WriteLine("Entrez la première valeur:");
             int a = readInt();
+            Console.WriteLine("Entrez la deuxièmme valeur:");
             int b = readInt();
+            Console.WriteLine("Entrez la dernière valeur:");
             int c = readInt();
 
             int max = calculateMax(a, b, c);
