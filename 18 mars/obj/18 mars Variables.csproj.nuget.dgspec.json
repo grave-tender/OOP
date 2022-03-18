@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Cegep\\session 2\\OOP\\Workspace\\15 Mars Exercice\\15 Mars Exercice\\15 Mars Exercice.csproj": {}
+    "H:\\Cegep\\session 2\\OOP\\Workspace\\18 mars\\18 mars Variables.csproj": {}
   },
   "projects": {
-    "H:\\Cegep\\session 2\\OOP\\Workspace\\15 Mars Exercice\\15 Mars Exercice\\15 Mars Exercice.csproj": {
+    "H:\\Cegep\\session 2\\OOP\\Workspace\\18 mars\\18 mars Variables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Cegep\\session 2\\OOP\\Workspace\\15 Mars Exercice\\15 Mars Exercice\\15 Mars Exercice.csproj",
-        "projectName": "15 Mars Exercice",
-        "projectPath": "H:\\Cegep\\session 2\\OOP\\Workspace\\15 Mars Exercice\\15 Mars Exercice\\15 Mars Exercice.csproj",
+        "projectUniqueName": "H:\\Cegep\\session 2\\OOP\\Workspace\\18 mars\\18 mars Variables.csproj",
+        "projectName": "18 mars Variables",
+        "projectPath": "H:\\Cegep\\session 2\\OOP\\Workspace\\18 mars\\18 mars Variables.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "H:\\Cegep\\session 2\\OOP\\Workspace\\15 Mars Exercice\\15 Mars Exercice\\obj\\",
+        "outputPath": "H:\\Cegep\\session 2\\OOP\\Workspace\\18 mars\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

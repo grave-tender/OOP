@@ -1,0 +1,16 @@
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\15 Mars Exercice.exe
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\15 Mars Exercice.deps.json
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\15 Mars Exercice.runtimeconfig.json
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\15 Mars Exercice.runtimeconfig.dev.json
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\15 Mars Exercice.dll
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\ref\15 Mars Exercice.dll
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\bin\Debug\net5.0\15 Mars Exercice.pdb
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.csproj.AssemblyReference.cache
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.GeneratedMSBuildEditorConfig.editorconfig
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.AssemblyInfoInputs.cache
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.AssemblyInfo.cs
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.csproj.CoreCompileInputs.cache
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.dll
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\ref\15 Mars Exercice.dll
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.pdb
+H:\Cegep\session 2\OOP\Workspace\15 Mars Exercice\15 Mars Exercice\obj\Debug\net5.0\15 Mars Exercice.genruntimeconfig.cache
