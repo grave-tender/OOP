@@ -1,0 +1,16 @@
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ExerciceTryCatch.exe
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ExerciceTryCatch.deps.json
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ExerciceTryCatch.runtimeconfig.json
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ExerciceTryCatch.runtimeconfig.dev.json
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ExerciceTryCatch.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ExerciceTryCatch.pdb
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.csproj.AssemblyReference.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.GeneratedMSBuildEditorConfig.editorconfig
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.AssemblyInfoInputs.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.AssemblyInfo.cs
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.csproj.CoreCompileInputs.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ref\ExerciceTryCatch.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.pdb
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.genruntimeconfig.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ref\ExerciceTryCatch.dll

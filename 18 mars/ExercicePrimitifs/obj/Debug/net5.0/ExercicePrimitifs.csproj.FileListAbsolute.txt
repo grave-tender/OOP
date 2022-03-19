@@ -1,0 +1,15 @@
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ExercicePrimitifs.exe
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ExercicePrimitifs.deps.json
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ExercicePrimitifs.runtimeconfig.json
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ExercicePrimitifs.runtimeconfig.dev.json
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ExercicePrimitifs.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ExercicePrimitifs.pdb
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.GeneratedMSBuildEditorConfig.editorconfig
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.AssemblyInfoInputs.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.AssemblyInfo.cs
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.csproj.CoreCompileInputs.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ref\ExercicePrimitifs.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.pdb
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.genruntimeconfig.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ref\ExercicePrimitifs.dll
