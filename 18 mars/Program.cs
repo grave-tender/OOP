@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;// input output
 using static System.Console;
 
 namespace Variables18mars
