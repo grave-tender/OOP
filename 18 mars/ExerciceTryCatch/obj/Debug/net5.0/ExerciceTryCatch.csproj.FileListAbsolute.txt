@@ -13,4 +13,4 @@ H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\Exerc
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ref\ExerciceTryCatch.dll
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.pdb
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\ExerciceTryCatch.genruntimeconfig.cache
-H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\bin\Debug\net5.0\ref\ExerciceTryCatch.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceTryCatch\obj\Debug\net5.0\refint\ExerciceTryCatch.dll
