@@ -12,4 +12,5 @@ H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\Exer
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ref\ExercicePrimitifs.dll
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.pdb
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.genruntimeconfig.cache
-H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\bin\Debug\net5.0\ref\ExercicePrimitifs.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\ExercicePrimitifs.csproj.AssemblyReference.cache
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExercicePrimitifs\obj\Debug\net5.0\refint\ExercicePrimitifs.dll

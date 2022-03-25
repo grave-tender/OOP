@@ -13,4 +13,4 @@ H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceFactorielle\obj\Debug\net5.0\re
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceFactorielle\obj\Debug\net5.0\ExerciceFactorielle.pdb
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceFactorielle\obj\Debug\net5.0\ExerciceFactorielle.genruntimeconfig.cache
 H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceFactorielle\obj\Debug\net5.0\ExerciceFactorielle.csproj.AssemblyReference.cache
-H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceFactorielle\bin\Debug\net5.0\ref\ExerciceFactorielle.dll
+H:\Cegep\session 2\OOP\Workspace\18 mars\ExerciceFactorielle\obj\Debug\net5.0\refint\ExerciceFactorielle.dll

@@ -10,9 +10,13 @@ namespace ExercicePrimitifs
             Array[] strings = initialize();
 
             printMenu(strings);
+            
             ReadLine();
         }
 
+        /// <summary>
+        /// Cette fonction va initializer un gro tableau
+        /// </summary>
         static Array[] initialize()
         {
             return new Array[] {
@@ -30,6 +34,10 @@ namespace ExercicePrimitifs
             };
         }
 
+        ///<summary>
+        /// Cette fonction va iterer dans le tableau et imprimmer en colonnes le contenu d'Array
+        ///</summary>
+        ///<param name="Array"></param>
         static void printMenu(Array[] arrayOfStrings)
         {
             string[] titles = { "Type", "Byte(s) of memory", "Min", "Max" };
@@ -42,6 +50,9 @@ namespace ExercicePrimitifs
             printDashLine();
         }
 
+        ///<summary>
+        /// Cette fonction montre une ligne de dashes
+        ///</summary>
         static void printDashLine()
         {
             for (int i = 0; i < 77; i++) Write("-");

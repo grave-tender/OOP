@@ -10,7 +10,7 @@ H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\App1.AssemblyInfo
 H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\App1.AssemblyInfo.cs
 H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\App1.csproj.CoreCompileInputs.cache
 H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\App1.dll
-H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\refint\App1.dll
 H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\App1.pdb
 H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\App1.genruntimeconfig.cache
 H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\ref\App1.dll
+H:\Cegep\session 2\OOP\Workspace\22 Mars\App1\obj\Debug\net5.0\refint\App1.dll

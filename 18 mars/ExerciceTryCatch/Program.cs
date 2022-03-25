@@ -8,7 +8,6 @@ namespace ExerciceTryCatch
         static void Main(string[] args)
         {
 
-            //THIS WILL NEVER WORK NOR THROW ANYTHING, IT WILL JUST LOOP, ASK NAÏM FOR MORE
             try
             {
                 int max = 500;
@@ -18,9 +17,9 @@ namespace ExerciceTryCatch
                     WriteLine(i);
                 }
             }
-            catch (System.Exception ex)
+            catch (OverflowException ex)
             {
-                WriteLine("Exception caught: \n"+ex);
+                WriteLine("T'as loop à l'infini: \n"+ex);
             }
 
         }
