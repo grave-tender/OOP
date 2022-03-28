@@ -21,7 +21,7 @@ namespace App
         
 
         //constructor
-        public Loan(Client client){
+        public Loan(Client client, double solde, double margeCredit, string typeCompte){
 
         }
 

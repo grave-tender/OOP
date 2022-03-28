@@ -1,18 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace App
 {
-    //TODO: ristourne
+    //TODO: ristourne -- fuck that
     class CompteBanquaire
     {
         //attributs:
         Client client;
         double solde;
         string status = "closed";
-        string typeDeCompte; //etudiant, epargne
-        Transaction[] transactions;
-        Loan loan;//this may not need to be a list, the loans interest can decrease the balance's value past the credit margin
-        double margeCredit;
+        string typeCompte; //etudiant, epargne
+        List<Transaction> transactions = new List<Transaction>();
+        Loan loan;
+        double margeCredit;//marge de base
 
         //constructor
         public CompteBanquaire(Client client, string typeCompte, double solde){
@@ -21,27 +22,44 @@ namespace App
             this.solde = solde;
             status = "active";
             DateOuverture = DateTime.Now;
-            margeCredit = determinerMargeCredit(client, solde);
+            setTypeCompte(typeCompte);
+            //si le client est un etudiant, la marge de credit initiale maximum est 300$, sinnon 1000$
+            margeCredit = determinerMargeCredit(client, solde, typeCompte, (typeCompte.Equals("student"))? 1000: 300);
+
+            loan = new Loan(client, solde, margeCredit, typeCompte);;
         }
 
         //getters setters
         public DateTime DateOuverture { get; }
         public DateTime DateFermeture { get; set; }
-        public string getTypeDeCompte() => typeDeCompte;
+        public string getTypeDeCompte() => typeCompte;
         public Client getClient() => client;
         public string getStatus() => status;
         public double getMargeCredit() => margeCredit;
         public Loan getLoans() => loan;
-        public Transaction[] getTransactions() => transactions;
+        public List<Transaction> getTransactions() => transactions;
         
         public void setTypeCompte(string type) {
             if(!type.Equals("etudiant") && !type.Equals("epargne"))
                 throw new Exception("Ce type de compte n'existe pas");
+            
+            if(type.Equals("etudiant") && client.getAge() > 24) throw new Exception("Vous ne pouvez pas avoir un compte etudiant si vous avez au dela de 24 ans");
+            this.typeCompte = type;
         }
         //methods
-        //TODO: finir cette methode
-        public int determinerMargeCredit(Client client, double solde){
-            return 50;
+        public double determinerMargeCredit(Client client, double solde, string typeCompte, double margeCredit){
+            if (client.getHasCriminalRecord() && !client.getIsEmployed()) margeCredit *= 0.7;
+            else if(client.getHasCriminalRecord() || !client.getIsEmployed()) margeCredit *= 0.9;
+
+            //limite de credit d'un etudiant de 1000$
+            if(typeCompte.Equals("etudiant")) margeCredit = (margeCredit < 1000)? margeCredit: 1000;
+
+            //bonus paliers de somme dans compte
+            double soldeArrondi = Math.Floor(solde / 10000.0) * 10000.0;
+            if(soldeArrondi%10000 == 0) margeCredit += soldeArrondi * 0.1;
+
+            if(margeCredit < 0 ) return 0;
+            return margeCredit;
         }
 
         public void FermerCompte(){

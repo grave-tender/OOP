@@ -32,12 +32,11 @@ namespace App
             setTelephone(telephone);
             if (salaireAnnuel <= 0) throw new Exception("Le salaire annuel ne peut etre negatif");
             this.salaireAnnuel = salaireAnnuel;//can be both jobless and have a salary and vice versa
+            this.isEmployed = isEmployed;
             this.hasCriminalRecord = hasCriminalRecord;
 
             if (isBanned) throw new Exception("Nous refusons les personnes qui ont déjà été bannies au par avant");
         }
-
-        //constructor
 
         //getters setters
         public string getNom() => nom;
