@@ -23,8 +23,7 @@ namespace App
             bool isEmployed,
             bool hasCriminalRecord,
             bool isBanned
-        )
-        {
+        ) {
             setNom(nom);
             setPrenom(prenom);
             this.naissance = naissance; //day month year

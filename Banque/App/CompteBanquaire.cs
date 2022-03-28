@@ -11,9 +11,9 @@ namespace App
         double solde;
         string status = "closed";
         string typeCompte; //etudiant, epargne
+        double margeCredit;
         List<Transaction> transactions = new List<Transaction>();
-        Loan loan;
-        double margeCredit;//marge de base
+        Loan loan = null; //no loan upon opening an account
 
         //constructor
         public CompteBanquaire(Client client, string typeCompte, double solde){
@@ -26,7 +26,7 @@ namespace App
             //si le client est un etudiant, la marge de credit initiale maximum est 300$, sinnon 1000$
             margeCredit = determinerMargeCredit(client, solde, typeCompte, (typeCompte.Equals("student"))? 1000: 300);
 
-            loan = new Loan(client, solde, margeCredit, typeCompte);;
+            // loan = new Loan(client, solde, margeCredit, typeCompte);
         }
 
         //getters setters

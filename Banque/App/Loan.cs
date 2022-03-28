@@ -12,9 +12,10 @@ namespace App
         //determine interest based on age, criminal record and if hes banned
 
         double some = 0;
-        double tauxInteret;
-        bool canLoan = true;
-        DateTime limitePourPayer;
+        double tauxInteret; //pourcentage
+        bool canLoan = true; //ceci decide quoi faire lors d'un retrait
+        DateTime dateLimitePourPayer;
+        int nbAmmendes = 0;//continuer indefiniment pour faire payer le client d'avantage
 
 
 
@@ -22,14 +23,14 @@ namespace App
 
         //constructor
         public Loan(Client client, double solde, double margeCredit, string typeCompte){
-
+            setLimitePourPayer();
         }
 
         //getters setters
         public double getSome() => some;
         public double getTauxInteret() => tauxInteret;
         public bool getCanLoan() => canLoan;
-        public DateTime getLimitePourPayer() => limitePourPayer;
+        public DateTime getLimitePourPayer() => dateLimitePourPayer;
 
         public void setSome(double some) => this.some = some;
 
@@ -40,7 +41,7 @@ namespace App
         }
 
         public void setLimitePourPayer() {//new limit
-            //up tauxInteret
+            //up tauxInteret, ++nb ammendes et reset temps limite pour +2 semaines
 
         }
 
