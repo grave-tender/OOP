@@ -24,7 +24,7 @@ namespace App
             DateOuverture = DateTime.Now;
             setTypeCompte(typeCompte);
             //si le client est un etudiant, la marge de credit initiale maximum est 300$, sinnon 1000$
-            margeCredit = determinerMargeCredit(client, solde, typeCompte, (typeCompte.Equals("student"))? 1000: 300);
+            determinerMargeCredit(client, solde, typeCompte, (typeCompte.Equals("student"))? 1000: 300);
 
             // loan = new Loan(client, solde, margeCredit, typeCompte);
         }
@@ -47,7 +47,7 @@ namespace App
             this.typeCompte = type;
         }
         //methods
-        public double determinerMargeCredit(Client client, double solde, string typeCompte, double margeCredit){
+        public void determinerMargeCredit(Client client, double solde, string typeCompte, double margeCredit){
             if (client.getHasCriminalRecord() && !client.getIsEmployed()) margeCredit *= 0.7;
             else if(client.getHasCriminalRecord() || !client.getIsEmployed()) margeCredit *= 0.9;
 
@@ -58,8 +58,7 @@ namespace App
             double soldeArrondi = Math.Floor(solde / 10000.0) * 10000.0;
             if(soldeArrondi%10000 == 0) margeCredit += soldeArrondi * 0.1;
 
-            if(margeCredit < 0 ) return 0;
-            return margeCredit;
+            if(margeCredit < 0 ) margeCredit = 0;
         }
 
         public void FermerCompte(){

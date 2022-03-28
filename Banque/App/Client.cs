@@ -6,10 +6,14 @@ namespace App
     public class Client
     {
         //attributs:
-        string nom, prenom, telephone;
+        string nom;
+        string prenom;
+        string telephone;
         DateTime naissance;
         double salaireAnnuel;
-        bool hasCriminalRecord, isEmployed, isBanned;
+        bool hasCriminalRecord;
+        bool isEmployed;
+        bool isBanned;
         bool isClientMort = false;
         DateTime dateMortDuClient;
 
