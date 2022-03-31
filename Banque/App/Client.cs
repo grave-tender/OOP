@@ -19,6 +19,7 @@ namespace App
 
         //constructeur
         public Client(
+            //TODO: Addresse
             string nom,
             string prenom,
             DateTime naissance,
@@ -41,7 +42,7 @@ namespace App
             if (isBanned) throw new Exception("Nous refusons les personnes qui ont déjà été bannies au par avant");
         }
 
-        //getters setters
+        //getters
         public string getNom() => nom;
         public string getPrenom() => prenom;
         public DateTime getNaissance() => naissance;
@@ -55,24 +56,27 @@ namespace App
 
         public void setNom(string nom)
         {
-            if (isNomValide(nom))
-                this.nom = nom;
-            else
+            if (!isNomValide(nom))
                 throw new Exception("Nom doit etre [A-Z,a-z] seulement");
+
+            this.nom = nom;
         }
 
         public void setPrenom(string prenom)
         {
-            if (isNomValide(prenom))
-                this.prenom = prenom;
-            else
+            if (!isNomValide(prenom))
                 throw new Exception("Prenom doit etre [A-Z,a-z] seulement");
+            
+            this.prenom = prenom;
         }
 
         public void setTelephone(string telephone)
         {
             long justNumbers = long.Parse(Regex.Replace(telephone, "[^0-9]", ""));
-            if (Math.Floor(Math.Log10(justNumbers)) == 10) throw new Exception("This phone number has to be 10 digits long.");
+
+            if (Math.Floor(Math.Log10(justNumbers)) == 10)
+                throw new Exception("This phone number has to be 10 digits long.");
+            
             string formattedTelephone = String.Format("{0:(###)###-####}", justNumbers);
             this.telephone = formattedTelephone;
         }

@@ -22,7 +22,7 @@ namespace App
         //constructor
         public Loan(Client client, double solde, double margeCredit, string typeCompte){
             setTauxInteret(client, solde, margeCredit, typeCompte);
-            setLimitePourPayer();
+            addDeuxSemainesDateLimite();
         }
 
 
@@ -32,7 +32,10 @@ namespace App
         public bool getCanLoan() => canLoan;
         public DateTime getLimitePourPayer() => dateLimitePourPayer;
 
-        public void setDette(double dette) => this.dette = dette;
+        public void setDette(double dette) {
+            
+            this.dette = dette;
+        }
 
         public void setCanLoan() => canLoan = true;
         
@@ -51,21 +54,24 @@ namespace App
                 tauxInteret += 0.25;
             else if(solde/margeCredit >= 0.60) //si le solde est a 60% de la capacite de la marge de credit
                 tauxInteret += 0.75;
-            else if(solde/margeCredit >= 0.60) //si le solde est a 85% de la capacite de la marge de credit
+            else if(solde/margeCredit >= 0.85) //si le solde est a 85% de la capacite de la marge de credit
                 tauxInteret += 1.0;
         }
 
-        public void setLimitePourPayer() {//nouvelle limite de +2 semaines
-            //now + 2 semaines
-            
-        }
-
         //TODO:
-        public void enRetard() {
+        public bool enRetard() {
             //up tauxInteret, ++nb ammendes et reset temps limite pour +2 semaines
-
+            if(DateTime.Now > dateLimitePourPayer) {
+                addDeuxSemainesDateLimite();
+                return true;
+            }
+            return false;
         }
 
         //methods
+        public void addDeuxSemainesDateLimite() {//nouvelle limite de +2 semaines
+            //now + 2 semaines
+            dateLimitePourPayer.Add(TimeSpan.FromDays(14));
+        }
     }
 }

@@ -57,6 +57,7 @@ namespace App
             //avec le timer a 1 minute pour les interets, changer de type de compte et check si les interests changent aussi
         
             //loan paye a temps augmente la cote de credit
+
         }
     }
 }

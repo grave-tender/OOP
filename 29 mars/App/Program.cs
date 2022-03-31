@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Console;
 
 namespace App
 {
@@ -6,7 +7,10 @@ namespace App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Exercice1.afficher();
+            Exercice2 exercice2 = new Exercice2();
+            exercice2.deplacer();
+            exercice2.afficherVitesse();
         }
     }
 }

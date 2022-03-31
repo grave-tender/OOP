@@ -39,14 +39,15 @@ namespace App
         public Loan getLoans() => loan;
         public List<Transaction> getTransactions() => transactions;
         
-        public void setTypeCompte(string type) {
+        //methods
+        void setTypeCompte(string type) {
             if(!type.Equals("etudiant") && !type.Equals("epargne"))
                 throw new Exception("Ce type de compte n'existe pas");
             
             if(type.Equals("etudiant") && client.getAge() > 24) throw new Exception("Vous ne pouvez pas avoir un compte etudiant si vous avez au dela de 24 ans");
             this.typeCompte = type;
         }
-        //methods
+        
         public void determinerMargeCredit(Client client, double solde, string typeCompte, double margeCredit){
             if (client.getHasCriminalRecord() && !client.getIsEmployed()) margeCredit *= 0.7;
             else if(client.getHasCriminalRecord() || !client.getIsEmployed()) margeCredit *= 0.9;
@@ -83,6 +84,14 @@ namespace App
             if((solde-somme) < (solde-margeCredit))
                 throw new Exception($"votre marge de credit de {margeCredit}$ vous empeche de pouvoir retirer d'avantage");
             //TODO: seulement retirer si un Loan le permet
+            if(solde < 0){
+                if(!loan.getCanLoan()) throw new Exception("tu ne peut emprunter de l'argent, marge de credit depasee");
+
+                if((solde-somme) >= (margeCredit*-1)) throw new Exception($"cette transaction n'a pas ete effectuee car vous depassez de {(solde-somme)-(margeCredit*-1)}$ votre marge de credit");
+
+                //loan & history
+                
+            } 
 
 
             solde -= somme;
