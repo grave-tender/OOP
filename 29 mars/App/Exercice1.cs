@@ -1,32 +1,43 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App
 {
-    class Exercice1
+    public class Exercice1
     {
-        // int Annee { get; set; }
-        // int Mois { get; set; }
-        // int Jour { get; set; }
-        // int Heure { get; set; }
-        // int Minute { get; set; }
-        // int Seconde { get; set; }
+        uint annee;
+        uint mois;
+        uint jour;
+        uint heure;
+        uint minute;
+        uint seconde;
 
-        // public Exercice1(DateTime date){ 
-        //     Annee = date.Year;
-        //     Mois = date.Month;
-        //     Jour = date.Day;
-        //     Heure = date.Hour;
-        //     Minute = date.Minute;
-        //     Seconde = date.Second;
-        // }
+        public Exercice1(uint a, uint m, uint d, uint h, uint min, uint s){
+            annee = a;
+            mois = m;
+            jour = d;
+            heure = h;
+            minute = min;
+            seconde = s;
+        }
 
-        public static void afficher() {
-            DateTime date = DateTime.Now;
-            Console.WriteLine("La date de today est:\nAnnee: {0}\nMois: {1}\nJour: {2}", date.Year, date.Month, date.Day);
+        public Exercice1(DateTime date){
+            annee = (uint) date.Year;
+            mois = (uint) date.Month;
+            jour = (uint) date.Day;
+            heure = (uint) date.Hour;
+            minute = (uint) date.Minute;
+            seconde = (uint) date.Second;
+        }
+
+        public void afficher() {
+            Console.WriteLine("{0}/{1}/{2} {3}:{4}:{5} ",
+                annee,
+                mois,
+                jour,
+                heure,
+                minute,
+                seconde
+            );
         }
     }
 }

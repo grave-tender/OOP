@@ -1,5 +1,4 @@
 ﻿using System;
-using static System.Console;
 
 namespace App
 {
@@ -7,10 +6,11 @@ namespace App
     {
         static void Main(string[] args)
         {
-            Exercice1.afficher();
-            Exercice2 exercice2 = new Exercice2();
-            exercice2.deplacer();
-            exercice2.afficherVitesse();
+            Exercice1 date = new(DateTime.Now);
+            date.afficher();
+
+            Exercice1 date2 = new(1998, 11, 18, 20, 00, 00);
+            date2.afficher();
         }
     }
 }
