@@ -4,11 +4,13 @@ namespace CatProject
 {
     class Chat
     {
+        //attributs
         int nbDePattes = 4;
         bool aUneQueue = true;
         string nom;
         DateTime dateDeNaissance;
 
+        //constructors
         public Chat(string nom, DateTime dateDeNaissance){
             this.nom = nom;
             this.dateDeNaissance = dateDeNaissance;
@@ -21,6 +23,7 @@ namespace CatProject
             this.dateDeNaissance = dateDeNaissance;
         }
 
+        //getters setters
         public void setNbPattes(int nbPattes){
             if (nbPattes > 4 || nbPattes < 0) throw new ArgumentException($"what the fuck un chat avec ${nbPattes} pattes??");
 
