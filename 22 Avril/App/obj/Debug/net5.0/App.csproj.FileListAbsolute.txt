@@ -1,0 +1,16 @@
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.csproj.AssemblyReference.cache
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.GeneratedMSBuildEditorConfig.editorconfig
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.AssemblyInfoInputs.cache
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.AssemblyInfo.cs
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.csproj.CoreCompileInputs.cache
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\bin\Debug\net5.0\App.exe
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\bin\Debug\net5.0\App.deps.json
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\bin\Debug\net5.0\App.runtimeconfig.json
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\bin\Debug\net5.0\App.runtimeconfig.dev.json
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\bin\Debug\net5.0\App.dll
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\bin\Debug\net5.0\App.pdb
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.dll
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\refint\App.dll
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.pdb
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\App.genruntimeconfig.cache
+H:\Cegep\session 2\OOP\Workspace\22 Avril\App\obj\Debug\net5.0\ref\App.dll
