@@ -10,7 +10,7 @@ namespace Exercice2{
                 Console.WriteLine("x est null");
                 return 0;
             }
-            if(y == null){
+            if(y is not null){
                 Console.WriteLine("y est null");
                 return 0;
             }
