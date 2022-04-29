@@ -1,0 +1,17 @@
+namespace Exercice4 {
+    class Fond : Share_FNB
+    {
+        private string symbole;
+        private decimal prix;
+
+        public string Symbole {
+            get => symbole;
+            set => symbole = value;
+        }
+
+        public decimal Prix {
+            get => prix;
+            set => prix = value;
+        }
+    }
+}

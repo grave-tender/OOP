@@ -8,9 +8,9 @@ namespace Exercice3{
 
         public Animal(bool male) => this.male = male;
 
-        public bool Male{
-            get { return male; }
-            set { this.male = value; }
+        public abstract bool Male{
+            get;
+            set;
         }
     }
 }
